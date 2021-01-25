@@ -4,26 +4,26 @@ _Notice: We are on the local machine, on a local server so no authentication is 
 
 We can easily use the CLI to do actions in MongoDB
 
-`mongo`{{copy}}
+`mongo`{{execute}}
 
 We are going to run some basic commands:
 
 - List all databases (default ones)
 
-`show dbs`{{copy}}
+`show dbs`{{execute}}
 
 - Switch to a specific database (will be created automatically)
 
-`use demo`{{copy}}
+`use demo`{{execute}}
 
 - Create a first entry
 
-`db.examples.insert({'title': 'KataCoda rocks!', url: 'https://www.katacoda.com'})`{{copy}}
+`db.examples.insert({'title': 'KataCoda rocks!', url: 'https://www.katacoda.com'})`{{execute}}
 
 - List all collections (you'll see the one automatically created)
 
-`show collections`{{copy}}
+`show collections`{{execute}}
 
 - Look at the data we just inserted (see the automated `_id` field)
 
-`db.examples.find()`{{copy}}
+`db.examples.find()`{{execute}}
