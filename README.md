@@ -1,6 +1,7 @@
 # Interactive Katacoda Scenarios
 
 [![count](http://shields.katacoda.com/katacoda/devpro/count.svg)](https://www.katacoda.com/devpro "Get your profile on Katacoda.com")
+[![Build Status](https://dev.azure.com/devprofr/open-source/_apis/build/status/training-supports/katacoda-scenarios-ci?branchName=main)](https://dev.azure.com/devprofr/open-source/_build/latest?definitionId=48&branchName=main)
 
 Visit [katacoda.com/devpro](https://www.katacoda.com/devpro) to view the profile and interactive scenarios.
 
