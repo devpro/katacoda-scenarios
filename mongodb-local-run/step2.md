@@ -6,7 +6,7 @@ First, we need to create the data directory
 
 That's all we need to start MongoDB!
 
-`mongodb --dbpath=data`{{execute}}
+`mongod --dbpath=data`{{execute}}
 
 Look at the output, once done, do "Ctrl + C" to close the process.
 

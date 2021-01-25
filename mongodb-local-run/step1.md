@@ -29,3 +29,5 @@ Then, we'll the follow the [official documentation](https://docs.mongodb.com/man
 - Check MongoDB deamon service status
 
 `systemctl status mongod`{{execute}}
+
+Do "Ctrl + C" to exit this window
