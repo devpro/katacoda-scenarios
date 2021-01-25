@@ -18,8 +18,9 @@ npm install katacoda-cli --global
 katacoda scenarios:create
 ```
 
-&rarr; [www.katacoda.com/docs](https://www.katacoda.com/docs)
+&rarr; [www.katacoda.com/docs](https://www.katacoda.community/welcome.html)
 
 ### KataCoda scenario examples
 
-* [github.com/katacoda/scenario-example](https://github.com/katacoda/scenario-example)
+* [katacoda/scenario-example](https://github.com/katacoda/scenario-example)
+* [openshift-labs/learn-katacoda](https://github.com/openshift-labs/learn-katacoda)
