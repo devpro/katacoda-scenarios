@@ -20,7 +20,7 @@ In this step, we are going to look at the environment and see how to view & upda
 
 * Set default branch name:
 
-`git config --global init.defaultBranch main`{{copy}}
+`git config --global init.defaultBranch main`{{execute}}
 
 * List at the updated configuration:
 

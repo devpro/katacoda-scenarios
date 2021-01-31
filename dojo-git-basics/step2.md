@@ -2,7 +2,7 @@ Now that git is configured, let's create a first repository!
 
 * It can be done anywhere:
 
-`mkdir dojo-git; cd dojo-git; git-init`{{execute}}
+`mkdir dojo-git; cd dojo-git; git init`{{execute}}
 
 * Let's add some content:
 
