@@ -26,7 +26,7 @@ Now that git is configured, let's create a first repository!
 
 * Display the log history:
 
-`git log`{{execute}}
+`GIT_PAGER=cat git log`{{execute}}
 
 We need to have this `dummy.txt` file but we don't want to commit it
 
