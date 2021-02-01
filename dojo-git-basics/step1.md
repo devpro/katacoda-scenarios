@@ -12,7 +12,7 @@ In this step, we are going to look at the environment and see how to view & upda
 
 `git config -l`{{execute}}
 
-* Set your identity:
+* Set your identity (you can update it):
 
 `git config --global user.name "John Doe"`{{copy}}
 
