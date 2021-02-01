@@ -1,11 +1,15 @@
 #!/bin/bash
 
-{
-  echo "Waiting for background process (git update) to complete"
+stty -echo
+clear
 
-  while [ ! -f /opt/.backgroundfinished ] ; do sleep 2; done;
+echo "Waiting for background process (git update) to complete"
 
-  rm /opt/.backgroundfinished
+while [ ! -f /opt/.backgroundfinished ] ; do sleep 2; done;
 
-  echo "Done"
-} &> /dev/null
+rm /opt/.backgroundfinished
+
+echo "Done"
+
+stty echo
+clear
