@@ -29,3 +29,9 @@ In this step, we are going to look at the environment and see how to view & upda
 * You can also look at one configuration in particular:
 
 `git config user.name`{{execute}}
+
+* Finally look at where it is stored
+
+`more .gitconfig`{{execute}}
+
+References: [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup), [Getting Help](https://git-scm.com/book/en/v2/Getting-Started-Getting-Help)

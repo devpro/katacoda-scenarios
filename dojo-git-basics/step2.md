@@ -41,3 +41,5 @@ We need to have this `dummy.txt` file but we don't want to commit it
 * You status is now clean!
 
 You can now play as you want (except for push & pull as there is no remote defined).
+
+References: [Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
