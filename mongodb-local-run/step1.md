@@ -14,6 +14,10 @@ Then, we'll the follow the [official documentation](https://docs.mongodb.com/man
 
 `echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list`{{execute}}
 
+- Temporary fix regarding warnings "Failed to fetch https://dl.yarnpkg.com/debian/dists/stable/InRelease" (see [yarn issue #7866](https://github.com/yarnpkg/yarn/issues/7866#issuecomment-591464163))
+
+`curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`{{execute}}
+
 - Reload the local package database
 
 `sudo apt-get update`{{execute}}
@@ -25,6 +29,10 @@ Then, we'll the follow the [official documentation](https://docs.mongodb.com/man
 - Display MongoDB client version
 
 `mongo --version`{{execute}}
+
+- Start MongoDB deamon service
+
+`sudo systemctl start mongod`{{execute}}
 
 - Check MongoDB deamon service status
 
