@@ -38,4 +38,8 @@ Then, we'll the follow the [official documentation](https://docs.mongodb.com/man
 
 `systemctl status mongod`{{execute}}
 
-Do "Ctrl + C" to exit this window
+- Start MongoDB deamon service
+
+`sudo systemctl stop mongod`{{execute}}
+
+(you can check service status and see it's inactive, don't forget to do "Ctrl + C" to exit the window)
